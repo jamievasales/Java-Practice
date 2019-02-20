@@ -7,7 +7,7 @@ import java.util.*;
     an interface MUST overide all the methods of the 
     interface. Otherwise, create an abstract class or 
     extend the interface
-    
+
 */
 
 public class implements1 {
@@ -34,7 +34,7 @@ public class implements1 {
         public void turns() {
             System.out.println("We are now turning");
         }
-    
+    //Bikes for example will not have a radio. This is specific for a car
         public void toggleRadio() {
             radioStatus ^= true;
             String radioStat = (radioStatus==true)?"on":"off";
